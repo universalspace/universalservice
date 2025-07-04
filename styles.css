@@ -5,8 +5,8 @@
 }
 
 :root {
-    /* YouBroadband.in inspired color palette */
---mindaro: #d9ed92;
+    /* New color palette */
+    --mindaro: #d9ed92;
     --light-green: #b5e48c;
     --light-green-2: #99d98c;
     --emerald: #76c893;
@@ -163,8 +163,8 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: var(--gradient-primary);
-    color: white;
+    background: linear-gradient(135deg, var(--mindaro) 0%, var(--emerald) 50%, var(--verdigris) 100%);
+    color: var(--indigo-dye);
     padding-top: 70px;
     position: relative;
     overflow: hidden;
@@ -261,7 +261,7 @@ body {
 }
 
 .search-btn {
-    background: var(--primary-color);
+    background: var(--verdigris);
     color: white;
     border: none;
     padding: 16px 32px;
@@ -276,7 +276,7 @@ body {
 }
 
 .search-btn:hover {
-    background: var(--primary-dark);
+    background: var(--bondi-blue);
     transform: translateX(4px);
 }
 
@@ -287,7 +287,7 @@ body {
 }
 
 .search-note a {
-    color: white;
+    color: var(--indigo-dye);
     text-decoration: underline;
     font-weight: 600;
 }
@@ -363,7 +363,7 @@ body {
 
 /* Providers Banner */
 .providers-banner {
-    background: var(--secondary-color);
+    background: var(--mindaro);
     padding: 4rem 0;
     text-align: center;
     overflow: hidden;
@@ -371,7 +371,7 @@ body {
 
 .providers-banner h3 {
     margin-bottom: 2rem;
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -388,11 +388,11 @@ body {
 }
 
 .provider-logo {
-    background: white;
+    background: var(--white);
     padding: 1rem 2rem;
     border-radius: 12px;
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--verdigris);
     box-shadow: var(--shadow-md);
     transition: transform 0.3s ease;
     white-space: nowrap;
@@ -428,7 +428,7 @@ body {
     position: absolute;
     width: 60px;
     height: 4px;
-    background: var(--primary-color);
+    background: var(--verdigris);
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -437,7 +437,7 @@ body {
 
 .section-subtitle {
     font-size: 1.1rem;
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -449,12 +449,12 @@ body {
 }
 
 .service-card {
-    background: white;
+    background: var(--white);
     padding: 2.5rem;
     border-radius: 20px;
     box-shadow: var(--shadow-lg);
     transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--light-green-2);
     position: relative;
     overflow: hidden;
 }
@@ -466,7 +466,7 @@ body {
     left: 0;
     right: 0;
     height: 4px;
-    background: var(--gradient-primary);
+    background: linear-gradient(135deg, var(--verdigris) 0%, var(--bondi-blue) 50%, var(--cerulean) 100%);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -481,16 +481,16 @@ body {
 }
 
 .service-card.featured {
-    border-color: var(--primary-color);
+    border-color: var(--verdigris);
     transform: scale(1.02);
-    background: linear-gradient(135deg, #fff 0%, #fff8f5 100%);
+    background: linear-gradient(135deg, var(--white) 0%, var(--mindaro) 100%);
 }
 
 .service-badge {
     position: absolute;
     top: -10px;
     right: 20px;
-    background: var(--accent-color);
+    background: var(--keppel);
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
@@ -503,7 +503,7 @@ body {
 }
 
 .service-icon {
-    color: var(--primary-color);
+    color: var(--verdigris);
     margin-bottom: 1rem;
 }
 
@@ -511,11 +511,11 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--text-primary);
+    color: var(--indigo-dye);
 }
 
 .service-card p {
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     line-height: 1.6;
     margin-bottom: 1.5rem;
 }
@@ -527,12 +527,12 @@ body {
 
 .service-features li {
     padding: 0.5rem 0;
-    color: var(--text-secondary);
+    color: var(--cerulean);
     font-size: 0.9rem;
 }
 
 .service-btn {
-    background: var(--primary-color);
+    background: var(--verdigris);
     color: white;
     padding: 12px 24px;
     border-radius: 50px;
@@ -544,14 +544,14 @@ body {
 }
 
 .service-btn:hover {
-    background: var(--primary-dark);
+    background: var(--bondi-blue);
     transform: translateY(-2px);
 }
 
 /* Plans Section */
 .plans {
     padding: 100px 0;
-    background: var(--secondary-color);
+    background: var(--mindaro);
 }
 
 .plans-container {
@@ -563,7 +563,7 @@ body {
 }
 
 .plan-card {
-    background: white;
+    background: var(--white);
     border-radius: 20px;
     padding: 2.5rem;
     box-shadow: var(--shadow-lg);
@@ -578,9 +578,9 @@ body {
 }
 
 .plan-card.featured {
-    border-color: var(--primary-color);
+    border-color: var(--verdigris);
     transform: scale(1.05);
-    background: linear-gradient(135deg, #fff 0%, #fff8f5 100%);
+    background: linear-gradient(135deg, var(--white) 0%, var(--light-green) 100%);
 }
 
 .plan-badge {
@@ -588,7 +588,7 @@ body {
     top: -15px;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--accent-color);
+    background: var(--keppel);
     color: white;
     padding: 8px 20px;
     border-radius: 25px;
@@ -608,7 +608,7 @@ body {
 
 .plan-header h3 {
     font-size: 1.5rem;
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     margin-bottom: 1rem;
     font-weight: 600;
 }
@@ -616,7 +616,7 @@ body {
 .plan-speed {
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--verdigris);
     margin-bottom: 1rem;
 }
 
@@ -630,12 +630,12 @@ body {
 .price-amount {
     font-size: 2.5rem;
     font-weight: 800;
-    color: var(--text-primary);
+    color: var(--indigo-dye);
 }
 
 .price-period {
     font-size: 1rem;
-    color: var(--text-secondary);
+    color: var(--cerulean);
 }
 
 .plan-features ul {
@@ -645,20 +645,20 @@ body {
 
 .plan-features li {
     padding: 0.75rem 0;
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     display: flex;
     align-items: center;
     gap: 0.75rem;
 }
 
 .check {
-    color: var(--accent-color);
+    color: var(--keppel);
     font-weight: bold;
 }
 
 .plan-btn {
     width: 100%;
-    background: var(--primary-color);
+    background: var(--verdigris);
     color: white;
     border: none;
     padding: 15px;
@@ -673,14 +673,14 @@ body {
 }
 
 .plan-btn:hover {
-    background: var(--primary-dark);
+    background: var(--bondi-blue);
     transform: translateY(-2px);
 }
 
 /* Providers Section */
 .providers {
     padding: 100px 0;
-    background: white;
+    background: var(--white);
 }
 
 .providers-grid {
@@ -690,18 +690,18 @@ body {
 }
 
 .provider-category {
-    background: var(--secondary-color);
+    background: var(--mindaro);
     padding: 2.5rem;
     border-radius: 20px;
     text-align: center;
     transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--light-green-2);
 }
 
 .provider-category:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
-    border-color: var(--primary-color);
+    border-color: var(--verdigris);
 }
 
 .category-header {
@@ -714,7 +714,7 @@ body {
 }
 
 .category-header h3 {
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
     font-weight: 600;
@@ -728,24 +728,24 @@ body {
 }
 
 .provider-item {
-    background: white;
+    background: var(--white);
     padding: 0.75rem 1rem;
     border-radius: 8px;
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     font-size: 0.9rem;
     box-shadow: var(--shadow-sm);
     transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--light-green-2);
 }
 
 .provider-item:hover {
-    color: var(--primary-color);
+    color: var(--verdigris);
     transform: translateY(-2px);
-    border-color: var(--primary-color);
+    border-color: var(--verdigris);
 }
 
 .category-btn {
-    background: var(--primary-color);
+    background: var(--verdigris);
     color: white;
     padding: 12px 24px;
     border-radius: 50px;
@@ -757,14 +757,14 @@ body {
 }
 
 .category-btn:hover {
-    background: var(--primary-dark);
+    background: var(--bondi-blue);
     transform: translateY(-2px);
 }
 
 /* Execution Fees Section */
 .execution-fees {
     padding: 80px 0;
-    background: var(--dark-bg);
+    background: var(--indigo-dye);
     color: white;
 }
 
@@ -787,7 +787,7 @@ body {
 .fees-content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: var(--primary-light);
+    color: var(--light-green);
 }
 
 .fees-content p {
@@ -797,7 +797,7 @@ body {
 }
 
 .fee-breakdown {
-    background: rgba(255, 107, 53, 0.1);
+    background: rgba(52, 160, 164, 0.1);
     padding: 2rem;
     border-radius: 15px;
     backdrop-filter: blur(10px);
@@ -807,18 +807,18 @@ body {
 .fee-range {
     font-size: 2.5rem;
     font-weight: 800;
-    color: var(--primary-light);
+    color: var(--light-green);
     margin-bottom: 0.5rem;
 }
 
 .fee-description {
-    color: var(--text-light);
+    color: var(--light-green-2);
     font-size: 0.9rem;
 }
 
 .fees-services h3 {
     margin-bottom: 1.5rem;
-    color: var(--primary-light);
+    color: var(--light-green);
     font-size: 1.3rem;
 }
 
@@ -836,7 +836,7 @@ body {
 }
 
 .service-check {
-    color: var(--accent-color);
+    color: var(--keppel);
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -844,7 +844,7 @@ body {
 /* FAQ Section */
 .faq {
     padding: 100px 0;
-    background: var(--secondary-color);
+    background: var(--mindaro);
 }
 
 .faq-container {
@@ -853,18 +853,18 @@ body {
 }
 
 .faq-item {
-    background: white;
+    background: var(--white);
     margin-bottom: 1rem;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
     transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--light-green-2);
 }
 
 .faq-item:hover {
     box-shadow: var(--shadow-lg);
-    border-color: var(--primary-color);
+    border-color: var(--verdigris);
 }
 
 .faq-question {
@@ -873,16 +873,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: var(--white);
     transition: all 0.3s ease;
 }
 
 .faq-question:hover {
-    background: var(--secondary-color);
+    background: var(--mindaro);
 }
 
 .faq-question h3 {
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     font-size: 1.1rem;
     font-weight: 600;
     flex: 1;
@@ -890,7 +890,7 @@ body {
 }
 
 .faq-toggle {
-    color: var(--primary-color);
+    color: var(--verdigris);
     transition: transform 0.3s ease;
 }
 
@@ -911,7 +911,7 @@ body {
 }
 
 .faq-answer p {
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     line-height: 1.6;
     margin-bottom: 1rem;
 }
@@ -922,14 +922,14 @@ body {
 }
 
 .faq-answer li {
-    color: var(--text-secondary);
+    color: var(--cerulean);
     margin-bottom: 0.5rem;
 }
 
 /* Contact Section */
 .contact {
     padding: 100px 0;
-    background: white;
+    background: linear-gradient(135deg, var(--mindaro) 0%, var(--light-green) 100%);
 }
 
 .contact-wrapper {
@@ -942,11 +942,11 @@ body {
 .contact-header h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: var(--text-primary);
+    color: var(--indigo-dye);
 }
 
 .contact-header p {
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     margin-bottom: 2rem;
     line-height: 1.6;
 }
@@ -966,22 +966,23 @@ body {
 
 .feature-icon {
     font-size: 1.5rem;
+    color: var(--verdigris);
 }
 
 .feature-content h4 {
     font-size: 0.9rem;
     font-weight: 600;
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     margin-bottom: 0.25rem;
 }
 
 .feature-content p {
     font-size: 0.9rem;
-    color: var(--text-secondary);
+    color: var(--cerulean);
 }
 
 .contact-cta {
-    background: var(--primary-color);
+    background: var(--verdigris);
     color: white;
     padding: 15px 30px;
     border-radius: 50px;
@@ -994,21 +995,21 @@ body {
 }
 
 .contact-cta:hover {
-    background: var(--primary-dark);
+    background: var(--bondi-blue);
     transform: translateY(-2px);
 }
 
 .contact-form-container {
-    background: var(--secondary-color);
+    background: var(--white);
     padding: 2.5rem;
     border-radius: 20px;
     box-shadow: var(--shadow-lg);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--light-green-2);
 }
 
 .contact-form h3 {
     margin-bottom: 1.5rem;
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -1030,23 +1031,23 @@ body {
 .form-group select {
     width: 100%;
     padding: 15px;
-    border: 2px solid var(--border-color);
+    border: 2px solid var(--light-green-2);
     border-radius: 12px;
     font-size: 1rem;
     transition: all 0.3s ease;
-    background: white;
+    background: var(--white);
 }
 
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
     outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+    border-color: var(--verdigris);
+    box-shadow: 0 0 0 3px rgba(52, 160, 164, 0.1);
 }
 
 .submit-btn {
-    background: var(--primary-color);
+    background: var(--verdigris);
     color: white;
     border: none;
     padding: 15px 30px;
@@ -1063,14 +1064,14 @@ body {
 }
 
 .submit-btn:hover {
-    background: var(--primary-dark);
+    background: var(--bondi-blue);
     transform: translateY(-2px);
 }
 
 /* Disclaimer Section */
 .disclaimer {
     padding: 60px 0;
-    background: var(--secondary-color);
+    background: var(--mindaro);
     text-align: center;
 }
 
@@ -1080,19 +1081,19 @@ body {
 }
 
 .disclaimer h2 {
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
 
 .disclaimer p {
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     line-height: 1.6;
 }
 
 /* Footer */
 .footer {
-    background: var(--dark-bg);
+    background: var(--indigo-dye);
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -1106,18 +1107,18 @@ body {
 
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: var(--primary-light);
+    color: var(--light-green);
     font-weight: 600;
 }
 
 .footer-section p {
-    color: var(--text-light);
+    color: var(--light-green-2);
     line-height: 1.6;
     margin-bottom: 1rem;
 }
 
 .footer-phone a {
-    color: var(--primary-light);
+    color: var(--light-green);
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -1132,24 +1133,24 @@ body {
 }
 
 .footer-section ul li a {
-    color: var(--text-light);
+    color: var(--light-green-2);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: var(--primary-light);
+    color: var(--light-green);
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #374151;
-    color: var(--text-light);
+    border-top: 1px solid var(--cerulean);
+    color: var(--light-green-2);
 }
 
 .footer-bottom a {
-    color: var(--primary-light);
+    color: var(--light-green);
     text-decoration: none;
 }
 
@@ -1157,28 +1158,28 @@ body {
 .legal-page {
     padding-top: 100px;
     padding-bottom: 50px;
-    background: var(--secondary-color);
+    background: var(--mindaro);
     min-height: 100vh;
 }
 
 .legal-content {
     max-width: 800px;
     margin: 0 auto;
-    background: white;
+    background: var(--white);
     padding: 3rem;
     border-radius: 20px;
     box-shadow: var(--shadow-lg);
 }
 
 .legal-content h1 {
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     margin-bottom: 2rem;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 .legal-content h2 {
-    color: var(--primary-color);
+    color: var(--verdigris);
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 1.5rem;
@@ -1186,14 +1187,14 @@ body {
 }
 
 .legal-content h3 {
-    color: var(--text-primary);
+    color: var(--indigo-dye);
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
 .legal-content p {
-    color: var(--text-secondary);
+    color: var(--lapis-lazuli);
     line-height: 1.6;
     margin-bottom: 1rem;
 }
@@ -1223,6 +1224,7 @@ body {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1230,9 +1232,12 @@ body {
 }
 
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0px);
     }
+
     50% {
         transform: translateY(-10px);
     }
@@ -1242,6 +1247,7 @@ body {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -1249,22 +1255,23 @@ body {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+
     .hero-container,
     .contact-wrapper,
     .fees-container {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
-    
+
     .services-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1.5rem;
     }
-    
+
     .plans-container {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
-    
+
     .providers-grid {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
@@ -1413,29 +1420,29 @@ body {
     .container {
         padding: 0 15px;
     }
-    
+
     .hero-title {
         font-size: 2rem;
     }
-    
+
     .section-title {
         font-size: 1.8rem;
     }
-    
+
     .service-card,
     .plan-card,
     .provider-category {
         padding: 1.5rem;
     }
-    
+
     .contact-form-container {
         padding: 1.5rem;
     }
-    
+
     .legal-content {
         padding: 1.5rem;
     }
-    
+
     .nav-container {
         padding: 0 15px;
     }
