@@ -6,19 +6,31 @@
 
 :root {
     /* YouBroadband.in inspired color palette */
-    --primary-color: #ff6b35;
-    --primary-dark: #e55a2b;
-    --primary-light: #ff8c69;
-    --secondary-color: #f8f9fa;
-    --accent-color: #28a745;
-    --text-primary: #2c3e50;
-    --text-secondary: #6c757d;
-    --text-light: #adb5bd;
-    --border-color: #dee2e6;
+--mindaro: #d9ed92;
+    --light-green: #b5e48c;
+    --light-green-2: #99d98c;
+    --emerald: #76c893;
+    --keppel: #52b69a;
+    --verdigris: #34a0a4;
+    --bondi-blue: #168aad;
+    --cerulean: #1a759f;
+    --lapis-lazuli: #1e6091;
+    --indigo-dye: #184e77;
+
+    /* Main theme colors */
+    --primary-color: var(--verdigris);
+    --primary-dark: var(--indigo-dye);
+    --primary-light: var(--light-green);
+    --secondary-color: var(--mindaro);
+    --accent-color: var(--keppel);
+    --text-primary: var(--indigo-dye);
+    --text-secondary: var(--lapis-lazuli);
+    --text-light: var(--bondi-blue);
+    --border-color: var(--light-green-2);
     --white: #ffffff;
-    --dark-bg: #1a1a1a;
-    --gradient-primary: linear-gradient(135deg, #ff6b35 0%, #ff8c69 50%, #ffa500 100%);
-    --gradient-secondary: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    --dark-bg: var(--indigo-dye);
+    --gradient-primary: linear-gradient(135deg, var(--verdigris) 0%, var(--bondi-blue) 50%, var(--indigo-dye) 100%);
+    --gradient-secondary: linear-gradient(135deg, var(--light-green) 0%, var(--keppel) 100%);
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
     --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
