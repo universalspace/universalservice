@@ -1,0 +1,16 @@
+{
+  "name": "universal-space-consultant",
+  "version": "1.0.0",
+  "description": "Universal Space Consultant - Premium Internet & Cable Services",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/",
+    "start": "live-server --port=3000 --open=/"
+  },
+  "keywords": ["internet", "cable", "telecommunications", "broadband"],
+  "author": "Universal Space Consultant",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
