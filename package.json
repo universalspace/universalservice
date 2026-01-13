@@ -1,16 +1,25 @@
 {
-  "name": "universal-space-consultant",
+  "name": "serviceguide-hub",
   "version": "1.0.0",
-  "description": "Universal Space Consultant - Premium Internet & Cable Services",
+  "description": "ServiceGuide Hub - Independent Third-Party Service Assistance Platform",
   "main": "index.html",
   "scripts": {
     "dev": "live-server --port=3000 --open=/",
     "start": "live-server --port=3000 --open=/"
   },
-  "keywords": ["internet", "cable", "telecommunications", "broadband"],
-  "author": "Universal Space Consultant",
+  "keywords": [
+    "service assistance",
+    "guidance platform",
+    "independent",
+    "third-party",
+    "connectivity"
+  ],
+  "author": "ServiceGuide Hub",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "ci": "^2.3.0"
   }
 }
